@@ -7,8 +7,8 @@ function setup()
 
 function draw()
 {
-  //create a background using RGB values
-  background(256,0,0)
+  //create a background using RGB values Classmate: Elaine
+  background(245,255,92)
 
   // change the paint brush to a specific color according to RGB values
   fill(0,0,255);
