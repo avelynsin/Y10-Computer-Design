@@ -15,7 +15,8 @@ function draw()
 
 	// change the paint brush to a specific color according to RGB values
 	// this color applies only to the outside color of a shape
-	stroke(0,0,0);
+  // Classmate : Elaine
+	stroke(255,255,255);
 
 	// modifies the thickness of the border of an object
 	strokeWeight(3);
@@ -26,7 +27,7 @@ function draw()
 
 
 	fill(7,149,140);
-	stroke(255,255,255);
+	stroke(255,255,6);
 	strokeWeight(10);
 
 	rect(150,10,100,50);
