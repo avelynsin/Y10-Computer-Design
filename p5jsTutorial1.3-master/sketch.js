@@ -18,10 +18,12 @@ function draw()
 
 	text("Baby Shark",10,50);
 
+  text("Donald Trump",10,130);
+
 	rect(10,100,100,50);
 
 	fill(255,255,255);
 
-	text("Donald Trump",10,130);
+
 
 }
