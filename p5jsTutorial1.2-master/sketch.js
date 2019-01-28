@@ -33,9 +33,9 @@ function draw()
 	rect(150,10,100,50);
 	rect(150,100,100,50);
 
-// new rectangles (10 pixels in between)
+// new rectangles (edited strokeWeight)
 
-  strokeWeight(10)
+  strokeWeight(20)
   fill(6,255,123)
   rect(5,445,100,50)
 
