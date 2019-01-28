@@ -18,7 +18,7 @@ function draw()
 
   fill(225,225,255);
   stroke(225,0,0);
-  strokeWeight(10);
+  strokeWeight(1);
 
 	text("Avelyn Sin",10,50);
 
