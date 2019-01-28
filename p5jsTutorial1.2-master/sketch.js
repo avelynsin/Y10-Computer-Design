@@ -35,7 +35,7 @@ function draw()
 
 // new rectangles (edited strokeWeight)
 
-  strokeWeight(20)
+  strokeWeight(40)
   fill(6,255,123)
   rect(5,445,100,50)
 
