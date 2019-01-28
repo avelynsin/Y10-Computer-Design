@@ -16,7 +16,15 @@ function draw()
 
   text("Hello World",80,30);
 
+  fill(225,225,255);
+  stroke(225,0,0);
+  strokeWeight(3);
+
 	text("Avelyn Sin",10,50);
+
+  fill(0,0,255);
+  stroke(0,0,0);
+  strokeWeight(3);
 
   text("Donald Trump",10,130);
 
