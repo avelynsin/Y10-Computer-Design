@@ -16,7 +16,7 @@ function draw()
 
   text("Hello World",80,30);
 
-	text("Baby Shark",10,50);
+	text("Avelyn Sin",10,50);
 
   text("Donald Trump",10,130);
 
