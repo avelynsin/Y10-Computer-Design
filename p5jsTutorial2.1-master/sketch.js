@@ -61,7 +61,7 @@ function draw()
 // added
     fill(250,250,250);
     stroke(0,0,0);
-    rect(button2X,button2Z,100,50);
+    rect(1,448,100,50);
 
     if (mouseX > 10 && mouseX < 10 + 100 && mouseZ > 10 && mouseZ < 10+100)
 	{
@@ -69,7 +69,7 @@ function draw()
 		fill(100,50,5);
 		stroke(51,70,190);
 		textSize(16)
-		rect(button2X,button2Z,100,50);
+		rect(1,448,100,50);
   }
   	else
   	{
@@ -77,12 +77,12 @@ function draw()
       fill(250,250,250);
       stroke(0,0,0);
       textSize(12)
-      rect(button2X,button2Z,100,50);
+      rect(1,448,100,50);
   	}
 
     fill(140,100,205);
     stroke(0,0,0);
     textSize(12);
-    text("Avelyn Sin",30,320);
+    text("Avelyn Sin",25,480);
 
 }
