@@ -8,7 +8,7 @@ function setup()
   button2X = 10;
   button2Y = 150;
   button2Z = 290;
-
+  button2A = 400;
 }
 
 function draw()
@@ -84,5 +84,34 @@ function draw()
     stroke(0,0,0);
     textSize(12);
     text("Avelyn Sin",25,480);
+
+    // added
+        fill(250,250,250);
+        stroke(0,0,0);
+        rect(1,350,100,50);
+
+        if (mouseX > 10 && mouseX < 10 + 100 && mouseA > 10 && mouseA < 10+100)
+    	{
+    	    // Change button color when we move our mouse over it
+    		fill(100,50,5);
+    		stroke(51,70,190);
+    		textSize(16)
+    		rect(1,350,100,50);
+      }
+      	else
+      	{
+      		// Otherwise show the original color
+          fill(250,250,250);
+          stroke(0,0,0);
+          textSize(12)
+          rect(1,350,100,50);
+      	}
+
+        fill(140,100,205);
+        stroke(0,0,0);
+        textSize(12);
+        text("Sin",25,380);
+
+
 
 }
