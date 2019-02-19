@@ -88,7 +88,7 @@ function draw()
     // added
         fill(250,250,250);
         stroke(0,0,0);
-        rect(1,350,100,50);
+        rect(598,448,100,50);
 
         if (mouseX > 10 && mouseX < 10 + 100 && mouseA > 10 && mouseA < 10+100)
     	{
@@ -96,7 +96,7 @@ function draw()
     		fill(100,50,5);
     		stroke(51,70,190);
     		textSize(16)
-    		rect(1,350,100,50);
+    		rect(598,448,100,50);
       }
       	else
       	{
@@ -104,13 +104,13 @@ function draw()
           fill(250,250,250);
           stroke(0,0,0);
           textSize(12)
-          rect(1,350,100,50);
+          rect(598,448,100,50);
       	}
 
         fill(140,100,205);
         stroke(0,0,0);
         textSize(12);
-        text("Sin",25,380);
+        text("Sin",630,480);
 
 
 
