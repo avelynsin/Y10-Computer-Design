@@ -9,10 +9,7 @@ function setup()
 	b1.setTextOver("GO");
 	b1.setButtonOverFill(255,255,50);
 
-	b2 = new Button(10,60,100,25);
-	b2.setText("Level 2");
-	b2.setTextOver("GO");
-	b2.setButtonOverFill(255,255,50);
+	b2 = new Button(10,100,100,25);
 
 }
 
@@ -25,11 +22,6 @@ function draw()
 
 	if (b1.getButtonState() == 1)
 	{
-		window.open("../hard/hard.html","_self");
-	}
-
-	if (b2.getButtonState() == 1)
-	{
-		window.open("../hard/hard.html","_self");
+		window.open("../easy/easy.html","_self");
 	}
 }

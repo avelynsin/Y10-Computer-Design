@@ -15,7 +15,7 @@ class Button {
 		this.textG = 0;
 		this.textB = 0;
 		this.textOver = "Hidden";
-		this.text = "Ignore";
+		this.text = "Hello World";
 		this.textPressed = "Pressed";
 		this.textLength = 20;
 		this.textHeight = 16;
