@@ -5,7 +5,7 @@ function setup()
 {
 	createCanvas(500,500);
 	b1 = new Button(10,10,100,25);
-	b1.setText("Level 1");
+	b1.setText("level2");
 	b1.setTextOver("GO");
 	b1.setButtonOverFill(255,255,50);
 
@@ -22,6 +22,6 @@ function draw()
 
 	if (b1.getButtonState() == 1)
 	{
-		window.open("../easy/easy.html","_self");
+		window.open("level2/level2.html","_self");
 	}
 }
