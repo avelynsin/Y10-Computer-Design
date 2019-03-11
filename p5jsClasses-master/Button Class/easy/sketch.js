@@ -14,7 +14,7 @@ function setup()
 
 function draw()
 {
-	background(125,125,125);
+	background(193,138,236);
 
 	b1.showButton();
 	b2.showButton();

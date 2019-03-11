@@ -15,18 +15,14 @@ function setup()
 
 function draw()
 {
-	background(125,125,125);
+	background(138,148,236);
 
 	b1.showButton();
 	b2.showButton();
 
 	if (b1.getButtonState() == 1)
 	{
-		window.open("hard/hard.html","_self");
+		window.open("level1/level1.html","_self");
 	}
 
-	if (b2.getButtonState() == 1)
-	{
-		window.open("hard/hard.html","_self");
-	}
 }

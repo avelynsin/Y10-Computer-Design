@@ -13,12 +13,12 @@ function setup()
 	b1.setButtonOverFill(50,255,50);
 
 	b2 = new Button(10,60,100,25);
-	b2.setText("Play easy version");
+	b2.setText("Play Easy");
 	b2.setTextOver("GO");
 	b2.setButtonOverFill(50,255,50);
 
 	b3 = new Button(10,110,100,25);
-	b3.setText("Play hard version");
+	b3.setText("Play Hard");
 	b3.setTextOver("GO");
 	b3.setButtonOverFill(50,255,50);
 
@@ -30,7 +30,7 @@ function setup()
 
 function draw()
 {
-	background(255,0,127);
+	background(242,102,102);
 
 // we need a show button
 	b1.showButton();

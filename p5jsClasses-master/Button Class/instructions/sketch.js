@@ -15,13 +15,13 @@ function setup()
 
 function draw()
 {
-	background(125,125,125);
+	background(247,146,146);
 
 	b1.showButton();
 	b2.showButton();
 
 	if (b1.getButtonState() == 1)
 	{
-		window.open("../mainmenu/mainmenu.html","_self");
+		window.open("../index.html","_self");
 	}
 }
