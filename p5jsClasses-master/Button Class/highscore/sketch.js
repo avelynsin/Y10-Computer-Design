@@ -1,5 +1,5 @@
 var b1;
-var b2;
+
 
 function setup()
 {
@@ -9,7 +9,6 @@ function setup()
 	b1.setTextOver("GO");
 	b1.setButtonOverFill(255,255,50);
 
-	b2 = new Button(10,100,100,25);
 
 }
 
@@ -18,7 +17,7 @@ function draw()
 	background(138,236,200);
 
 	b1.showButton();
-	b2.showButton();
+
 
 	if (b1.getButtonState() == 1)
 	{
